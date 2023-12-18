@@ -8,6 +8,7 @@ import {
 import Link from "next/link";
 import { Input } from "@nextui-org/react";
 import MobileNavMenu from "./MobileNavMenu";
+import { IoSearch } from "react-icons/io5";
 
 const NavBar = () => {
   return (
@@ -21,6 +22,7 @@ const NavBar = () => {
             radius="full"
             fullWidth
             className="pt-1"
+            startContent={<IoSearch />}
           />
         </NavbarItem>
       </NavbarContent>
