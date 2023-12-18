@@ -18,7 +18,7 @@ const Note = (props: NoteProps) => {
       classNames={{
         base: "w-[250px] h-[350px] bg-yellow-300 pb-10 data-[hover=true]:bg-yellow-400",
       }}
-      className="shadow-xl"
+      className="shadow-xl hover:scale-105 transition-transform"
       isHoverable
       isPressable
       onPress={() => router.push(props.href)}
