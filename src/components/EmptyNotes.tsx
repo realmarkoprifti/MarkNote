@@ -5,7 +5,7 @@ import { FaPlus } from "react-icons/fa";
 
 const EmptyNotes = () => {
   return (
-    <div className="flex justify-center items-center flex-col gap-3">
+    <div className="flex justify-center items-center flex-col gap-3 h-screen">
       <span className="text-9xl">
         <FaNotesMedical />
       </span>
